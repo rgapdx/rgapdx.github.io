@@ -3,18 +3,18 @@ layout: default
 title: About
 section_id: about
 testimonials:
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
-  - quote: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-    author: David White, Designer at Huglab
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
+  - quote:  Aaron's pedagogical approach is effective across the full spectrum of training experience and natural ability.  The adage "If you want to improve your technique, learn from a smaller man" rings true.  He's a master technician, and is meticulous and quite particular with even the finest of details.  He takes the time to coach each student one-on-one during drills.
+    author: Daniel P., Student
+  - quote: I have learned first hand that there is no free ride at Renzo Gracie Portland based on your age -- or anything else for that matter. Right now I am 30 pounds lighter than I was when I  started, and I have gained some flexibility in my knees and hips. I have a long way to go and I'm confident I will get to where I need to be.
+    author: Dave, Student
+  - quote: I think it's pretty simple: If you live in the Portland area and you don't at least check out RGA PDX for one of Aaron Milam's classes, you're doing yourself a huge disservice.
+    author: Logan E., Student
 ---
 
 <div class='full parallax' style='background-image: url(images/about-us.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
-      {% include section-header.html title="About us" color="#fff" tagline="Know something about our team" class="big" %}
+      {% include section-header.html title="WORKSHOP / RGA • PDX" color="#fff" tagline="Our team and our history" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -27,8 +27,8 @@ testimonials:
       <p>As an instructor it is a pleasure to observe and partake in your students growth and development. Teaching someone to appreciate, cherish, and excel in their chosen discipline is something that the teachers here at Renzo Gracie Portland take pride in.</p>
     </div>
     <div class='medium-6 columns'>
-      <h3>Some Needed Here</h3>
-      <p>
+      <img class="fadeinleft" alt="" src="images/aaron-main.jpg" />
+      <div class='three spacing'></div>
     </div>
   </div>
 </div>
@@ -55,7 +55,7 @@ testimonials:
 <div class='full'>
   <div class='row'>
     {% for member in site.data.members-minus %}
-      <div class='small-6 medium-3 large-3 columns'>
+      <div class='small medium-4 large-4 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="" src="{{ member.avatar }}" />
