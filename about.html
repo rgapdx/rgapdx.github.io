@@ -1,4 +1,5 @@
 ---
+{% comment %}
 layout: default
 title: About
 section_id: about
@@ -11,6 +12,7 @@ skills:
     percentage: 70
   - title: Branding
     percentage: 61
+{% endcomment %}
 testimonials:
   - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
     author: David White, Designer at Huglab
@@ -33,24 +35,29 @@ testimonials:
   <div class='row'>
     <div class='medium-6 columns'>
       <h3>Our history</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>As an instructor it is a pleasure to observe and partake in your students growth and development. Teaching someone to appreciate, cherish, and excel in their chosen discipline is something that the teachers here at Renzo Gracie Portland take pride in.</p>
     </div>
     <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4 style=''>
-                {{skill.title}}
-                <strong>{{skill.percentage}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <h3>Some Needed Here</h3>
+      <p>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Aaron Milam Head Instructor</h3>
+      <h4>Second Degree Jiu Jitsu Black Belt</h4>
+      <p>Aaron Milam, moved to Portland in May 2013 for the specific purpose of opening the city’s best facility for Brazilian Jiu Jitsu. Originally from Los Angeles and having run the Brazilian Jiu Jitsu program at NYC’s multi-discipline combat sports gym Workshop for 8 years, he decided it was time to get back to the West Coast and create the same community and performance facility that he’d become accustomed to.
+
+      Having wrestled, practiced traditional boxing and Muay Thai throughout childhood and college, Aaron began training under Carlson Gracie black belt Rey Diogo in 2000, under whom he earned his purple belt. Upon moving to New York in 2006, he began training under John Danaher (Renzo Gracie). In February 2008 Aaron was awarded his black belt by both John Danaher (Renzo Gracie) and Rey Diogo (Carlson Gracie). Aaron also holds a brown belt in Judo under Roy Kawaji.  During his years of training he has competed in Brazilian Jiu Jitsu, Judo, and submission grappling, regionally and internationally.
+
+      Aaron holds a Bachelors and Masters degree in philosophy.</p>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>Some Needed Here</h3>
+      <p>
     </div>
   </div>
 </div>
@@ -67,15 +74,6 @@ testimonials:
               <div class='intro'>
                 <h3>{{member.name}}</h3>
                 <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
               </div>
             </div>
           </div>
