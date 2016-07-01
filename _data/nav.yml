@@ -4,17 +4,27 @@
 - name: Academy
   path: academy.html
   section_id: academy
-- name: Services
-  path: services.html
-  section_id: services
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
+- name: About
+  path: about.html
+  section_id: about
+- name: Programs
+  path: programs.html
+  section_id: programs
   children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
+    - name: Jiu Jitsu
+      path: brazilian-jiu-jitsu.html
+    - name: Jiu Jitsu 101
+      path: bjj-101.html
+    - name: Muay Thai
+      path: muay-thai.html
+    - name: Kids & Young Adults
+      path: kids.html
+- name: Schedule
+  path: schedule.html
+  section_id: schedule
+- name: Gallery
+  path: gallery.html
+  section_id: gallery
 - name: Contact
   path: contact.html
   section_id: contact
