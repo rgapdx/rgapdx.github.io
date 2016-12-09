@@ -1,0 +1,168 @@
+---
+layout: default
+title: Schedule
+section_id: schedule
+services_left:
+  - icon: trophy
+    title: Web Design
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Web Development
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: pagelines
+    title: Branding
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: lock
+    title: Security
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+services_right:
+  - icon: compass
+    title: Art Direction
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: image
+    title: Photography
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: database
+    title: Data
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: film
+    title: Video
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+---
+
+<div class='full parallax' style='background-image: url(images/@stock/service-page-header.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Schedule" tagline="All classes and times" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-12 columns'>
+
+      <table>
+        <thead>
+          <tr>
+            <th width="150">Times</th>
+            <th width="150">Monday</th>
+            <th width="150">Tuesday</th>
+            <th width="150">Wednesday</th>
+            <th width="150">Thursday</th>
+            <th width="150">Friday</th>
+            <th width="150">Saturday</th>
+            <th width="150">Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:00AM - 9:30AM</td>
+            <td>NoGi</td>
+            <td>Gi</td>
+            <td></td>
+            <td></td>
+            <td>Gi</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9:00AM - 10:00AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Kids BJJ 4-6y</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>12:00PM - 1:30PM</td>
+            <td>NoGi</td>
+            <td>Gi</td>
+            <td>NoGi</td>
+            <td>Gi</td>
+            <td>NoGi</td>
+            <td>Gi Advanced?</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4:00PM - 5:00PM</td>
+            <td>Kids BJJ 4-6y</td>
+            <td></td>
+            <td>Kids BJJ 4-6y</td>
+            <td></td>
+            <td>Kids BJJ 4-6y</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5:00PM - 6:00PM</td>
+            <td>Kids BJJ 6+</td>
+            <td>BJJ 101</td>
+            <td>Kids BJJ 6+</td>
+            <td>BJJ 101</td>
+            <td>Kids BJJ 6+</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6:00PM - 7:00PM</td>
+            <td>BJJ 101</td>
+            <td>BJJ 102</td>
+            <td>BJJ 101</td>
+            <td>BJJ 102</td>
+            <td>BJJ 102</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7:00PM - 8:30PM</td>
+            <td>Gi Advanced</td>
+            <td>NoGi Advanced</td>
+            <td>Gi Advanced</td>
+            <td>NoGi Advanced</td>
+            <td>Gi Advanced</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      {% for service in page.services_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>

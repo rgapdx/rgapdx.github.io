@@ -2,13 +2,10 @@
   path: index.html
   section_id: home
 - name: Academy
-  path: academy.html
-  section_id: academy
-- name: About
   path: about.html
   section_id: about
 - name: Programs
-  path: programs.html
+  path: #
   section_id: programs
   children:
     - name: Jiu Jitsu
