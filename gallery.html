@@ -1,0 +1,67 @@
+---
+layout: default
+title: Gallery
+section_id: gallery
+---
+
+<div class='full parallax' style='background-image: url(images/@stock/service-page-header.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Schedule" tagline="All classes and times" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-12 columns'>
+
+      <div id="instafeed"></div>
+
+    </div>
+  </div>
+</div>
+
+<!--
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      {% for service in page.services_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+-->
+  {% include instafeed.html %}
+  <script type="text/javascript">
+    var feed = new Instafeed({
+      get: 'tagged',
+      tagName: 'workshopbjj',
+      clientId: '	fda064db6e4b4420bf28b44d01d504c7'
+    });
+    feed.run();
+  </script>
