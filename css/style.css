@@ -24,6 +24,15 @@
 /* Layout helpers
 ----------------------------------*/
 
+#editMe.design_2 {
+  display: none!important
+}
+
+#appView .powrMark .userHasApp.hid {
+    display: none!important;
+}
+
+
 .ui-helper-hidden {
   display: none;
 }
