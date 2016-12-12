@@ -1,44 +1,20 @@
-- avatar: images/@stock/member-1.jpg
+- avatar: images/aaron-instructor.jpg
   name: Aaron Milam
   position: Head Instructor
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
+- avatar: images/carsten-instructor.jpg
+  name: Carsten Carlsen
+  position: Instructor
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
+- avatar: images/justin-instructor.jpg
+  name: Justin Gardner
+  position: Kids Instructor
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Justin Gardner began training Brazilian Jiu Jitsu in May of 2011 under Brazilian Top Team black belt Bill Bradley, under whom he earned his blue belt in February of 2012. February 2015 Justin was awarded his purple belt from Aaron Milam.  A frequent participant in two classes a day, Justin loves to roll with his friends and gently introduce people to Brazilian Jiu Jitsu. Justin coaches kids and Youth at Renzo Gracie Academy Portland.
 - avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+  name: Eddie Jamrog
+  position: Muay Thai Instructor
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Eddie Jamrog began his fighting sport endeavors when a friend of his, knowing that Eddie was a former high school wrestler, introduced him to Brazilian Jiu-Jitsu. Eddie began studying Brazilian Jiu-Jitsu in Reno, Nevada in 2009, and eventually earned his blue belt under Gary Grate (Charles Gracie). In 2011, Eddie began training western boxing under Ryan Simpson of Reno City Boxing.
