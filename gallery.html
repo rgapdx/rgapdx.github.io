@@ -3,6 +3,7 @@ layout: default
 title: Gallery
 section_id: gallery
 ---
+{% include instafeed.html %}
 
 <div class='full parallax' style='background-image: url(images/@stock/service-page-header.jpg); color: #fff;'>
   <div class='row'>
@@ -56,12 +57,3 @@ section_id: gallery
   <div class='spacing'></div>
 </div>
 -->
-  {% include instafeed.html %}
-  <script type="text/javascript">
-    var feed = new Instafeed({
-      get: 'tagged',
-      tagName: 'workshopbjj',
-      clientId: '	fda064db6e4b4420bf28b44d01d504c7'
-    });
-    feed.run();
-  </script>
