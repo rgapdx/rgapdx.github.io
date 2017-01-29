@@ -28,7 +28,7 @@
   display: none!important
 }
 
-#appView .powrMark .userHasApp.hid, .powrMark {
+#appView .powrMark .userHasApp.hid, .powrMark, .ani_glow, #appView .powrMark {
     display: none!important;
 }
 
